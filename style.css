@@ -1,0 +1,350 @@
+html{
+    background: #F3F2EE;
+}
+body{
+    margin: auto;
+    background: #F3F2EE;
+}
+
+h1{
+    margin-bottom: auto;
+}
+
+/**********************************************
+ MENU DE NAVEGAÇÃO:  */
+
+.menu {
+    display: flex;
+    width: 102vw;
+    justify-content: center;
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+#menu{
+    display: flex;
+    width: 97%;
+    min-width: 768px;
+    max-width: 1100px;
+    height: 59px;
+    justify-content: space-between;
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+}
+
+#linkedin{
+    margin-left: 28px;
+    margin-right: 7px;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+}
+
+#navegar{
+    display: flex;
+    margin-left: 86px;
+}
+#op{
+    margin-right: 20px;
+    font-size: 12px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.6;
+}
+#op:hover{
+    opacity: 1;
+}
+
+.nav2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    opacity: 0.6;
+}
+.nav2 a:hover{
+    opacity: 1;
+}
+
+
+#eu{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#euimg{
+    border-radius: 13px;
+}
+
+#caixap{
+    background: #EEF3F7;
+    border-radius: 5px;
+}
+#input-text{
+    height: 34px;
+    border: none;
+    background: #EEF3F7;
+}
+#lupa{
+    margin-left: 15px;
+}
+
+/**********************************************
+ CONTEÚDO DO LINKEDIN:  */
+
+.conteudo{
+    display: flex;
+    width: 102vw;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 38px;
+    position: relative;
+}
+#conteudo{
+    display: flex;
+    width: 97%;
+    min-width: 768px;
+    max-width: 1100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Fotos do topo: */
+.pict{
+    display: flex;
+    width: 99%;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#ft {
+    position: absolute;
+    bottom: 0;
+    width: 13%;
+    height: 84%;
+    transform: translate(-263%, 29%);
+    border-radius: 100%;
+}
+
+#backin {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-left: 28px;
+    width: 98%;
+}
+
+/* **********************************************
+ Conteúdo da Introdução */
+.main {
+    width: 97%;
+    margin-left: 28px;
+    height: 280px;
+    display: flex;
+    background: #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    flex-wrap: wrap;
+}
+.logos h3:hover{
+    text-decoration: underline #0a66c2;
+}
+
+#apresentacao {
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+#info{
+    color: gray;
+    margin-bottom: 12px;
+    margin-top: 4px;
+}
+#apresentacao b{
+    color: #0a66c2;
+}
+
+.logos {
+    margin-top: 55px;
+    margin-left: 30px;
+}
+
+#logo1{
+    display: flex;
+} 
+
+#logo1 h3{
+    margin: auto;
+}
+
+#by { /* foto da Byjus */
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+#logo2{
+    display: flex;
+} 
+
+#lets { /* foto da Let's Code */
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#bint{ /* Botão de Interesse do main */
+    background-color: #0B65C2;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-left: 20px;
+} 
+#bint:hover {
+    background-color: 	#1154cf;
+}
+
+#badd{ /* Outros botões do main */
+    background-color: white;
+    border: 1px solid gray;
+    color: #666666;
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-left: 10px;
+
+}
+#badd:hover {
+    background-color: #DCDCDC;
+    border: 2px solid gray;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+/* ****************************************
+EXPERIÊNCIAS */
+
+.exps{
+    display: flex;
+    flex-wrap: wrap;
+    height: 535PX;
+    background: #FFFFFF;
+    width: 97.5%;
+    margin-left: 32px;
+    margin-top: 32px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+#protit{
+    width: 717px;
+    height: 60px;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-left: 28px;
+}
+
+#pro1{  /* PROFISSÕES */
+    width: 100%;
+    display: flex;
+}
+
+#pro1 p{
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+#pro1 h3{
+    margin-top: 34px;
+    margin-bottom: 6px;
+}
+
+#by2{
+    margin: 30px;
+    border-radius: 10px;
+}
+#none{
+    margin: 30px;
+}
+
+#indicacao{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#in2{
+    margin-right: 10px;
+}
+
+/* *****************************************
+FORMAÇÕES ACADÊMICAS */
+.forms{  /* CONTEINER PRINCIPAL DAS FORMAÇÕES*/
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    width: 97.5%;
+    margin-left: 32px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 60px;
+}
+
+#form1{  /* FORMAÇÕES*/
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#descrf1 {
+    width: 82%;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+#descrf2 {
+    width: 585px;
+    margin-bottom: 55px;
+}
+
+#descrf1:hover {
+    text-decoration: underline #0a66c2;
+}
+#descrf2:hover {
+    text-decoration: underline #0a66c2;
+}
+
+#lets2{
+    margin: 30px;
+}
+
+#uf{
+    margin: 30px;
+}
+#if{
+    margin: 30px;
+}
+
+#form1 h3{ 
+    margin-top: 34px;
+    margin-bottom: 6px;
+} 
+
+#form1 p{
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
